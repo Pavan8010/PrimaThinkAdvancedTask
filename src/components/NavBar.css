@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.header {
+    background-color: #f77f00;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.header .logo {
+    background-color: #ffc88e;
+    font-size: 2em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.header .search-bar {
+    margin: 10px 0;
+}
+.header .search-bar input[type="text"] {
+    width: 300px;
+    padding: 5px;
+}
+.header .search-bar button {
+    backgroundColor: #f77f00;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+nav {
+    padding-top: 5px;
+    display: flex;
+    column-gap: 5px;
+    flex-direction: initial;
+    padding-left: 700px;
+
+}
+.toggle {
+    display: flex;
+    justify-items: start;
+    gap: 5px;
+    width: max-content;
+    font-size: larger;
+    font-weight: bolder;
+
+}
+button {
+    font-size: 17px;
+    border-radius: 10px;
+    width: 100px;
+    height: max-content;
+}
